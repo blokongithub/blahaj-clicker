@@ -1,6 +1,7 @@
 # Blåhaj Clicker
 
-Blåhaj Clicker is a fun clicker game where you click a blåhaj and collect coins, use coins to purchase upgrades and increas coins per second (CPS)
+- Blåhaj Clicker is a fun clicker game where you click a blåhaj and collect coins, use coins to purchase upgrades and increas coins per second (CPS)
+- This is just a test for highseas, expect more to come
 
 ## Features
 - Click on Blåhaj to earn coins.

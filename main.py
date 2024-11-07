@@ -40,6 +40,7 @@ upgrades = [
     Upgrade("SKOGSDUVA", 10000, 100),
     Upgrade("JÄTTESTOR", 100000, 1000),
     Upgrade("MEGA BLAHAJ", 1000000, 10000),
+    Upgrade("GIGA BLAHAJ", 10000000, 100000),
 ]
 
 powerups = [
@@ -92,10 +93,10 @@ while running:
     window.blit(blahaj_img, cookie_rect)
     
     coin_text = font.render(f"Coins: {int(coins)}", True, (0, 0, 0))
-    window.blit(coin_text, (10, 50))
+    window.blit(coin_text, (10, 20))
     
     cps_text = font.render(f"CPS: {round(cps, 1)}", True, (0, 0, 0))
-    window.blit(cps_text, (200, 50))
+    window.blit(cps_text, (10, 50))
     
     for index, upgrade in enumerate(upgrades):
         x = 10
